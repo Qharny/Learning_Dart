@@ -43,5 +43,6 @@ void greatestDivisor(int x, int y) {
       gcd = i;
     }
   }
+  
   print("Greatest common divisor of $x and $y is $gcd");
 }
