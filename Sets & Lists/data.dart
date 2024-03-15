@@ -1,5 +1,8 @@
 // list and set in dart
 
+
+// LIST
+
 void main(List<String> args) {
   var list = [1, 8, true, "83", "Sam", "Jim"]; // a dynamic list
   print(list);
@@ -16,8 +19,12 @@ void main(List<String> args) {
   ]; // specified list (List of strings)
 
   // methods
-  number.addAll([3, 4]);
+  number.addAll([3, 4]); // append 3 and 4 to the number list
+  // number.asMap();
+  names.remove("Dan"); //  removes only dan
+  names.clear(); // removes everything from the list
 
   print(names);
   print(number);
+  print(number.indexOf(09)); // prints the index of a number
 }
