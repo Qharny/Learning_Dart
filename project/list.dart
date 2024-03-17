@@ -3,14 +3,13 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  // final classname = list();
-  // // print(classname);
   list();
 }
 
 list() {
   // a function to add student and check if they are present
   List<String> names = []; // an empty list to get student name
+  
   for (int x = 1; x < 10; x++) {
     print("Enter student $x: ");
     String? addname = stdin.readLineSync(); // get student name
