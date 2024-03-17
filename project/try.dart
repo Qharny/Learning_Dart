@@ -7,6 +7,10 @@ void main() {
   if (num != null) {
     if (num == 0) {
       print("Your number is $num.");
+    } else {
+      print("Your number is $num");
     }
+  } else {
+    print("Done!!");
   }
 }

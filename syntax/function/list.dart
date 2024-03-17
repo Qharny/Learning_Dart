@@ -34,7 +34,7 @@ void main() {
   print(items);
   print(names);
   for (var name in names) {
-    print("The Firstname is: ${name}.");
+    print("The Firstname is $name.");
   }
 }
 

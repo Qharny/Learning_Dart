@@ -12,7 +12,7 @@ void main() {
   todoList.add('code for 5hrs');
 
   // Set the alarm time
-  DateTime alarmTime = DateTime(2024, 11, 27, 10, 0, 0);
+  DateTime alarmTime = DateTime(2024, 03, 16, 10, 0, 0);
 
   // Start the timer to check the alarm
   Timer.periodic(Duration(seconds: 1), (timer) {
