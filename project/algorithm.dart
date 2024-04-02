@@ -1,5 +1,9 @@
+//  EuclideanAlgorithm
+
+import 'dart:io';
+
 int euclideanAlgorithm(int a, int b) {
-  while (b != 0) {
+  while (b!= 0) {
     int temp = b;
     b = a % b;
     a = temp;
@@ -8,9 +12,34 @@ int euclideanAlgorithm(int a, int b) {
 }
 
 void main() {
-  int number1 = 48;
-  int number2 = 18;
+  int? number1;
+  int? number2;
+
+  while (number1 == null) {
+    try {
+      print("Enter the first number: ");
+      number1 = int.tryParse(stdin.readLineSync()?? '');
+      if (number1 == null) {
+        print("Invalid input. Please enter an integer.");
+      }
+    } catch (e) {
+      print("Invalid input. Please enter an integer.");
+    }
+  }
+
+  while (number2 == null) {
+    try {
+      print("Enter a second number: ");
+      number2 = int.tryParse(stdin.readLineSync()?? '');
+      if (number2 == null) {
+        print("Invalid input. Please enter an integer.");
+      }
+    } catch (e) {
+      print("Invalid input. Please enter an integer.");
+    }
+  }
 
   int gcd = euclideanAlgorithm(number1, number2);
   print("The greatest common divisor of $number1 and $number2 is $gcd");
 }
+
