@@ -23,7 +23,7 @@ void main() {
         print("Invalid input. Please enter an integer.");
       }
     } catch (e) {
-      print("Invalid input. Please enter an integer.");
+      print("Integer only!");
     }
   }
 
@@ -35,7 +35,7 @@ void main() {
         print("Invalid input. Please enter an integer.");
       }
     } catch (e) {
-      print("Invalid input. Please enter an integer.");
+      print("Integer only!");
     }
   }
 
