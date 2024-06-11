@@ -11,4 +11,10 @@ void main() {
   // Call the function and print the result
   print(sum(5, 3)); // Output: 8
   print(times(4, 3)); // ouput: 12
+  print(number(2, 1.5));
 }
+
+double number(double n, double x) {
+  return n / x;
+}
+

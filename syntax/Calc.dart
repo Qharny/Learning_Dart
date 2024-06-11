@@ -28,19 +28,19 @@ double divide(int a, int b) {
 void main() {
   // Print a message asking the user to enter a number
   print("Enter a number: ");
-  
+
   // Read a line of text from the console and store it in firstNumberInput variable
   String? firstNumberInput = stdin.readLineSync();
-  
+
   // Parse the input string to an integer, if it's not null, otherwise assign null to firstNumber
   int? firstNumber = int.tryParse(firstNumberInput ?? '');
 
   // Print a message asking the user to enter another number
   print("Enter another number: ");
-  
+
   // Read a line of text from the console and store it in secondNumberInput variable
   String? secondNumberInput = stdin.readLineSync();
-  
+
   // Parse the input string to an integer, if it's not null, otherwise assign null to secondNumber
   int? secondNumber = int.tryParse(secondNumberInput ?? '');
 
@@ -52,7 +52,7 @@ void main() {
     print("2. Subtraction");
     print("3. Multiplication");
     print("4. Division");
-    
+
     // Read the user's choice of operation from the console and store it in the operation variable
     var operation = stdin.readLineSync();
 

@@ -7,9 +7,9 @@ void main() {
 
   print(list);
 
-  var set = {}; // an empty set
+  Set<int> numbers = {}; // an empty set
   for (int x = 1; x < 10; x++) {
-    
+    numbers.add(x);
   }
-  print(set.isEmpty);
+  print(numbers);
 }

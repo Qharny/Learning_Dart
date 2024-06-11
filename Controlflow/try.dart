@@ -17,12 +17,12 @@ void main(List<String> args) {
     'Ivy'
   ];
 
-  // for (var num in numbers) {
-  //   for (var name in names) {
-  //     print("$name is $num years old");
-  //   }
-  // }
-  // ;
+  for (var num in numbers) {
+    for (var name in names) {
+      print("$name is $num years old");
+    }
+  }
+  ;
 
   print(items);
   print(items.contains("Sam"));
