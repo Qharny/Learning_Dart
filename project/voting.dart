@@ -5,7 +5,7 @@ import 'dart:io';
 void main() {
   List candidate = []; // candidate list
 
-  print("Enter the name: (Enter stop break)");
+  print("Enter the name (Enter stop break): ");
 
   // a while loop
   while (true) {
