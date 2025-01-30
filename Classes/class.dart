@@ -16,9 +16,9 @@ class Person {
 
 void main() {
   // Create an instance of the Person class
-  Person person1 = Person('Alice', 30);
+  Person Student = Person('Alice', 30);
 
   // Access the properties and call the method of the person object
-  print('Person 1 Details:');
-  person1.displayInfo(); // Output: Name: Alice, Age: 30
+  print('Student Details:');
+  Student.displayInfo(); // Output: Name: Alice, Age: 30
 }
